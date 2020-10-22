@@ -8,10 +8,12 @@ namespace GitTest1
         {
             Console.WriteLine("Hello Samuel!");
             Console.WriteLine("how are you today?");
+            double d;
             for (int i = 0; i <= 10; i++)
             {
-                Console.WriteLine("{0}^2 = {1} ", i, i * i);
-                Console.WriteLine("\t{0}^3 = {1} ", i, i*i*i );
+                d = i;
+                Console.WriteLine("sqrt({0}) = {1:0.##} ", i, Math.Sqrt(d));
+
             }
 
 
